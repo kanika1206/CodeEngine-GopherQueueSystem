@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/kanika1206/CodeEngine-GopherQueueSystem\/internal/queue"
+	"github.com/kanika1206/CodeEngine-GopherQueueSystem/internal/queue"
 )
 
 type Handler struct {
