@@ -1,4 +1,4 @@
-# CodeEngine — GopherQueue System
+# GopherEngine
 
 > A backend code execution engine built in Go — the kind of system that powers LeetCode's judge, but built from scratch to understand how it actually works.
 
