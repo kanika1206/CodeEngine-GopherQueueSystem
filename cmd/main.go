@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
-	"github.com/imdigitalashish/QueueSystemsInGolang/internal/api"
-	"github.com/imdigitalashish/QueueSystemsInGolang/internal/queue"
+	"github.com/kanika1206/CodeEngine-GopherQueueSystem\/internal/api"
+	"github.com/kanika1206/CodeEngine-GopherQueueSystem\/internal/queue"
 )
 
 func main() {

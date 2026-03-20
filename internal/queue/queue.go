@@ -11,7 +11,7 @@ import (
 
 	"io/ioutil"
 
-	"github.com/imdigitalashish/QueueSystemsInGolang/internal/model"
+	"github.com/kanika1206/CodeEngine-GopherQueueSystem\/internal/model"
 )
 
 type Queue struct {

@@ -1,4 +1,4 @@
-module github.com/imdigitalashish/QueueSystemsInGolang
+module github.com/kanika1206/CodeEngine-GopherQueueSystem\
 
 go 1.22.4
 
