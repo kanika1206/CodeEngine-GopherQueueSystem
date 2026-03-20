@@ -52,11 +52,11 @@ func (q *Queue) worker() {
 
 func runCode(language, code string) (string, error) {
 	// Create a temporary directory
-	tempDir, err := ioutil.TempDir("", "code-execution")
-	if err != nil {
-		return "", fmt.Errorf("error creating temp directory: %w", err)
-	}
-	defer os.RemoveAll(tempDir)
+	tempDir, err := ioutil.TempDir("/tmp", "code-execution")
+if err != nil {
+    return "", fmt.Errorf("error creating temp directory: %w", err)
+}
+defer os.RemoveAll(tempDir)
 
 	// Define file extensions and Docker images for each language
 	languageConfig := map[string]struct {
