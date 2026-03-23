@@ -13,7 +13,6 @@ Online judges like LeetCode and HackerRank let you submit code in any language a
 - How do you design a **non-blocking API** that accepts jobs and lets clients poll for results?
 
 This project is my answer. It implements the backend engine of a code execution platform — isolated execution via Docker, concurrent job processing via a worker pool, and a clean REST API for job submission and status tracking.
-
 ---
 
 ## How It Works
@@ -174,3 +173,4 @@ curl "http://localhost:8080/status?id=YOUR_ID_HERE"
 - **Docker-in-Docker** patterns and their limitations in different environments
 - Mutex strategies for safe concurrent map access (`RWMutex` for read-heavy workloads)
 - Building production-style REST APIs with Gin
+
